@@ -11,8 +11,8 @@ tags:
 - Monetization
 - Google APIs
 - Billing
-created: "2018-03-10"
-modified: "2018-03-10"
+created: "2018-03-13"
+modified: "2018-03-13"
 url: https://raw.githubusercontent.com/streamdata-gallery/billing/master/_listings/google-cloud-billing/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -25,7 +25,7 @@ apis:
   tags: Billing
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/billing/master/_listings/google-cloud-billing/v1-name-billinginfo-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/billing/master/_listings/google-cloud-billing/v1-name-billinginfo-get.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/billing/v1/libraries
