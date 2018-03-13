@@ -25,7 +25,7 @@ apis:
   tags: Billing
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/billing/master/_listings/google-cloud-billing/v1-name-billinginfo-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/billing/master/_listings/google-cloud-billing/v1-name-billinginfo-put.md
 x-common:
 - type: x-code
   url: https://cloud.google.com/billing/v1/libraries
