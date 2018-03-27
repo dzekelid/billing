@@ -13,9 +13,9 @@ tags:
 - Microsoft
 - Management
 - Billing
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/billing/master/_listings/azure-billing-api/apis.yaml
+created: "2018-03-27"
+modified: "2018-03-27"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: Azure Billing API
@@ -27,7 +27,7 @@ apis:
   tags: Billing
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-billingperiodname-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-get.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
