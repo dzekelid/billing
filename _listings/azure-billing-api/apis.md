@@ -27,7 +27,7 @@ apis:
   tags: Billing
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-billingperiodname-get.md
 x-common:
 - type: x-website
   url: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
