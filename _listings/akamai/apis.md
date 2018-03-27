@@ -33,7 +33,7 @@ apis:
   tags: Billing
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/akamai/billing-center-api-v2-contracts-contractid-products-productid-measures-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/akamai/billing-center-api-v2-reporting-groups-reportinggroupid-products-productid-statistics-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
