@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: Akamai Merged API
+  title: Akamai API List Usage per Contract
+  description: List Usage per Contract
   version: 1.0.0
+host: developer.akamai.com
+basePath: /
 schemes:
 - http
 produces:
@@ -16,46 +19,46 @@ paths:
       description: List Usage per Contract
       operationId: billingcenterapiv2contractscontractidproductsproductidmeasuresyearmonthfromyearfrommonthtoyeartomont
       parameters:
-      - in: Boolean
+      - in: query
         name: billingDayOnly
         description: Aggregates cumulative data as of the end of the billing period,
           typically the end of the month, otherwise the day the contract&#8217;s term
           expires
         type: string
-      - in: String
+      - in: query
         name: contractId
         description: Identifies the contract under which data is aggregated
         type: string
-      - in: Integer
+      - in: query
         name: fromMonth
         description: The month starting the range of aggregated data
         type: string
-      - in: Integer
+      - in: query
         name: fromYear
         description: The year starting the range of aggregated data
         type: string
-      - in: Integer
+      - in: query
         name: month
         description: The month for which data is aggregated
         type: string
-      - in: String
+      - in: query
         name: productId
         description: Identifies the product under which data is aggregated
         type: string
-      - in: String
+      - in: query
         name: statisticName
         description: Reports on a specific statistic, otherwise reports all statistics
           by default
         type: string
-      - in: Integer
+      - in: query
         name: toMonth
         description: The month ending the range of aggregated data
         type: string
-      - in: Integer
+      - in: query
         name: toYear
         description: The year ending the range of aggregated data
         type: string
-      - in: Integer
+      - in: query
         name: year
         description: The year for which data is aggregated
         type: string
