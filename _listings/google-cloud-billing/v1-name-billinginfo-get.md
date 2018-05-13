@@ -1,9 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: Google Cloud Billing
-  description: Allows developers to manage billing for their Google Cloud Platform
-    projects    programmatically.
+  title: Google Cloud Billing API Get Billing Information
+  description: |-
+    Gets the billing information for a project. The current authenticated user
+    must have [permission to view the
+    project](https://cloud.google.com/docs/permissions-overview#h.bgs0oxofvnoo
+    ).
   contact:
     name: Google
     url: https://google.com
