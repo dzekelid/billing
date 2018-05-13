@@ -26,7 +26,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-cloud-billing/v1-name-billinginfo-put.md
+- name: Google Cloud Billing API Get Billing Information
+  description: |-
+    Gets the billing information for a project. The current authenticated user
+    must have [permission to view the
+    project](https://cloud.google.com/docs/permissions-overview#h.bgs0oxofvnoo
+    ).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
+  humanURL: https://cloud.google.com/billing/docs/
+  baseURL: http:://cloudbilling.googleapis.com//
+  tags: Billing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-cloud-billing/v1-name-billinginfo-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-cloud-billing/v1-name-billinginfo-get-postman.md
 x-common:
+- type: x-code
+  url: https://cloud.google.com/billing/v1/libraries
+- type: x-errors
+  url: https://cloud.google.com/billing/v1/errors/core_errors
+- type: x-getting-started
+  url: https://cloud.google.com/billing/v1/getting-started
+- type: x-how-to-guides
+  url: https://cloud.google.com/billing/docs/how-to
+- type: x-pricing
+  url: https://cloud.google.com/billing/v1/pricing
+- type: x-website
+  url: https://cloud.google.com/billing/docs/
 - type: x-code
   url: https://cloud.google.com/billing/v1/libraries
 - type: x-errors
