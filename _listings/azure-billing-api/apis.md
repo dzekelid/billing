@@ -28,7 +28,21 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-billingperiodname-get.md
+- name: Azure Billing API Billing Periods List
+  description: Lists the available billing periods for a subscription in reverse chronological
+    order.
+  image: ""
+  humanURL: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
+  baseURL: http:://management.azure.com//
+  tags: Billing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-get-postman.md
 x-common:
+- type: x-website
+  url: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
 - type: x-website
   url: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
 include: []
