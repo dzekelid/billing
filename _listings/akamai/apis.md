@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/akamai/invoicing-api-v2-contracts-contractid-products-productid-geo-billing-files-get.md
-- name: Akamai API List Usage per Contract
-  description: List Usage per Contract
+- name: Akamai API List Statistics per Reporting Group
+  description: List Statistics per Reporting Group
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Akamai_Technologies,_Inc._Logo.png
   humanURL: https://akamai.com
   baseURL: https://developer.akamai.com//
   tags: Billing
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/akamai/billing-center-api-v2-contracts-contractid-products-productid-measures-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/akamai/billing-center-api-v2-reporting-groups-reportinggroupid-products-productid-statistics-get.md
 x-common:
 - type: x-base
   url: https://api.ccu.akamai.com
