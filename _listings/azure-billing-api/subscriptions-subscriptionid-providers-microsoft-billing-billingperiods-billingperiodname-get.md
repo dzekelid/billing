@@ -1,10 +1,8 @@
 ---
 swagger: "2.0"
 info:
-  title: ConsumptionManagementClient
-  description: Consumption management client provides access to consumption resources
-    for Azure Web-Direct subscriptions. Other subscription types which were not purchased
-    directly through the Azure web portal are not supported through this preview API.
+  title: Azure Billing API Billing Periods Get
+  description: Gets a named billing period.
   version: 1.0.0
 host: management.azure.com
 basePath: /
