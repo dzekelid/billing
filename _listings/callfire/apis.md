@@ -1,5 +1,6 @@
 ---
 name: CallFire
+x-slug: callfire
 description: CallFire is a cloud-based telephony company that provides voice and text
   connectivity services. It offers the necessary tools for businesses to communicate
   and market effectively. The company works to provide a diverse line of innovative
@@ -7,19 +8,51 @@ description: CallFire is a cloud-based telephony company that provides voice and
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Voice
-- Telco
-- Stack Network
-- SMS
-- Partners
-- Messaging
-- Getting Started
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Billing
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/callfire/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Callfire Find credit usage
+  x-api-slug: callfire
+  description: Find credit usage for the user. Returns credits usage for time period
+    specified or if unspecified then total for all time.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//me/billing/credit-usage
+  tags: Me,Billing,Credit-usage
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/callfire/mebillingcreditusage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/callfire/mebillingcreditusage-get-openapi.md
+- name: Callfire Find plan usage
+  x-api-slug: callfire
+  description: Searches for the data of a billing plan usage for the user. Returns
+    the data of a billing plan usage for the current month
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2//me/billing/plan-usage
+  tags: Me,Billing,Plan-usage
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/callfire/mebillingplanusage-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/callfire/mebillingplanusage-get-openapi.md
+- name: Callfire
+  x-api-slug: callfire
+  description: CallFire is a cloud-based telephony company that provides voice and
+    text connectivity services. It offers the necessary tools for businesses to communicate
+    and market effectively. The company works to provide a diverse line of innovative
+    products that enable its users to get their messages delivered.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/CallFire_Logo.png
+  humanURL: http://www.callfire.com
+  baseURL: https://www.callfire.com//v2
+  tags: Billing
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/callfire/openapi.md
 x-common:
 - type: x-net-sdk
   url: https://github.com/CallFire/CallFire-CSharp-SDK

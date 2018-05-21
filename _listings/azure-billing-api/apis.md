@@ -1,47 +1,58 @@
 ---
 name: Azure Billing API
+x-slug: azure-billing-api
 description: Use Azure Billing APIs to pull usage and resource data into your preferred
   data analysis tools. The Azure Resource Usage and RateCard APIs can help you accurately
   predict and manage your costs. The APIs are implemented as a Resource Provider and
-  part of the family of APIs exposed by the Azure Resource Manager.nbsp;
-image: ""
+  part of the family of APIs exposed by the Azure Resource Manager.
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-billing-api.png
 x-kinRank: "10"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Plans
-- Microsoft
-- Management
-- Billing
-created: "2018-03-27"
-modified: "2018-03-27"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/apis.yaml
+tags: Billing
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Azure Billing API Billing Periods List
+  x-api-slug: azure-billing-api
+  description: Lists the available billing periods for a subscription in reverse chronological
+    order.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-billing-api.png
+  humanURL: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/Microsoft.Billing/billingPeriods
+  tags: Billing Period
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillingbillingperiods-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillingbillingperiods-get-openapi.md
+- name: Azure Billing API Billing Periods Get
+  x-api-slug: azure-billing-api
+  description: Gets a named billing period.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-billing-api.png
+  humanURL: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/Microsoft.Billing/billingPeriods/{billingPeriodName}
+  tags: Billing Period
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillingbillingperiodsbillingperiodname-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptionssubscriptionidprovidersmicrosoftbillingbillingperiodsbillingperiodname-get-openapi.md
 - name: Azure Billing API
+  x-api-slug: azure-billing-api
   description: Use Azure Billing APIs to pull usage and resource data into your preferred
-    data analysis tools
-  image: ""
-  humanURL: ""
+    data analysis tools. The Azure Resource Usage and RateCard APIs can help you accurately
+    predict and manage your costs. The APIs are implemented as a Resource Provider
+    and part of the family of APIs exposed by the Azure Resource Manager.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-billing-api.png
+  humanURL: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
   baseURL: ://management.azure.com//
   tags: Billing
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-billingperiodname-get.md
-- name: Azure Billing API Billing Periods Get
-  description: Gets a named billing period.
-  image: ""
-  humanURL: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
-  baseURL: http:://management.azure.com//
-  tags: Billing
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-billingperiodname-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/subscriptions-subscriptionid-providers-microsoft-billing-billingperiods-billingperiodname-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/azure-billing-api/openapi.md
 x-common:
-- type: x-website
-  url: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
 - type: x-website
   url: https://docs.microsoft.com/en-us/azure/billing/billing-usage-rate-card-overview
 include: []
