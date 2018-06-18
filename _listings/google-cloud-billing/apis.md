@@ -5,10 +5,10 @@ description: The Google Cloud Billing API provides methods that you can use to p
   manage billing for your projects in the Google Cloud Platform.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
 x-kinRank: "9"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Billing
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-cloud-billing/apis.md
 specificationVersion: "0.14"
 apis:
