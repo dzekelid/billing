@@ -9,49 +9,30 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Billing
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Doubleclick API Get Billing Info
-  x-api-slug: google-doubleclick-api
+- name: Google Doubleclick Merged API - Get Billing Info
+  x-api-slug: billinginfo-get
   description: Retrieves a list of billing information for all accounts of the authenticated
     user.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
   humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://///billinginfo
-  tags: Advertising,Billing
+  baseURL: https:///
+  tags: Advertising, Google APIs, Stack Network, API Service Provider, API Provider,
+    Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-doubleclick/billinginfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-doubleclick/billinginfo-get-openapi.md
-- name: Google Doubleclick API Get Billing Info
-  x-api-slug: google-doubleclick-api
-  description: Returns the billing information for one account specified by account
-    ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://///billinginfo/{accountId}
-  tags: Advertising,Billing
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-doubleclick/billinginfoaccountid-get-openapi.md
-- name: Google Doubleclick API
-  x-api-slug: google-doubleclick-api
-  description: The Ad Exchange Buyer REST API allows your Real-Time Bidding application
-    to access and update account information and to submit creatives. The API also
-    allows an application (whether it does static bidding or real-time bidding) to
-    discover direct deals that sellers make available.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https:///
-  tags: Billing
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/google-doubleclick/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.dataflow.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.doubleclick.stack.network
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
 - type: x-blog

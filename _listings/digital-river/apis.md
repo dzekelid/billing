@@ -8,60 +8,55 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Billing
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/digital-river/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Digital River Shopper API Get Shoppers Me Carts Active Billing Address
-  x-api-slug: digital-river-shopper-api
+- name: Digital River Shopper API - Get Shoppers Me Carts Active Billing Address
+  x-api-slug: v1shoppersmecartsactivebillingaddress-get
   description: Get shoppers me carts active billing address.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}//v1/shoppers/me/carts/active/billing-address
-  tags: Shoppers,Me,Carts,Active,Billing,Ress
+  baseURL: https://store.digitalriver.com//store/{mysite}
+  tags: Commerce, Commerce, Products, Stack Network, API Service Provider, Products,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/digital-river/v1shoppersmecartsactivebillingaddress-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/digital-river/v1shoppersmecartsactivebillingaddress-get-openapi.md
-- name: Digital River Shopper API Put Shoppers Me Carts Active Billing Address
-  x-api-slug: digital-river-shopper-api
+- name: Digital River Shopper API - Put Shoppers Me Carts Active Billing Address
+  x-api-slug: v1shoppersmecartsactivebillingaddress-put
   description: Put shoppers me carts active billing address.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}//v1/shoppers/me/carts/active/billing-address
-  tags: Shoppers,Me,Carts,Active,Billing,Ress
+  baseURL: https://store.digitalriver.com//store/{mysite}
+  tags: Commerce, Commerce, Products, Stack Network, API Service Provider, Products,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/digital-river/v1shoppersmecartsactivebillingaddress-put-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/digital-river/v1shoppersmecartsactivebillingaddress-put-openapi.md
-- name: Digital River Shopper API Get Shoppers Me Orders Billing Address
-  x-api-slug: digital-river-shopper-api
+- name: Digital River Shopper API - Get Shoppers Me Orders Billing Address
+  x-api-slug: v1shoppersmeordersidbillingaddress-get
   description: Get shoppers me orders billing address.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
   humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}//v1/shoppers/me/orders/{id}/billing-address
-  tags: Shoppers,Me,Orders,Billing,Ress
+  baseURL: https://store.digitalriver.com//store/{mysite}
+  tags: Commerce, Commerce, Products, Stack Network, API Service Provider, Products,
+    Profiles, Service API, Relative Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/digital-river/v1shoppersmeordersidbillingaddress-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/digital-river/v1shoppersmeordersidbillingaddress-get-openapi.md
-- name: Digital River Shopper API
-  x-api-slug: digital-river-shopper-api
-  description: Digital Riveris a public company that provides global ecommerce, payments
-    and marketing services. In 2013, Digital River processed more than $30 billion
-    in online transactions.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/DigitalRiver_corp_logo_4c2.png
-  humanURL: https://digitalriver.com
-  baseURL: https://store.digitalriver.com//store/{mysite}
-  tags: Billing
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/digital-river/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://dezrez.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://digital.river.stack.network
 - type: x-blog
   url: https://developers.digitalriver.com/blog
 - type: x-blog-rss
