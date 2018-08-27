@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Billing
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-get-openapi.md
+- name: Capital One DevExchange - Create a bill
+  x-api-slug: accountsidbills-post
+  description: Creates a bill for the specific account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-post-openapi.md
 - name: Capital One DevExchange - Get bill by id
   x-api-slug: billsbillid-get
   description: Returns the bill with the specific id
@@ -38,6 +48,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-get-openapi.md
+- name: Capital One DevExchange - Update a specific existing bill
+  x-api-slug: billsbillid-put
+  description: Updates the specific bill
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-put-openapi.md
 - name: Capital One DevExchange - Delete a specific existing bill
   x-api-slug: billsbillid-delete
   description: Deletes the specific bill
@@ -74,6 +94,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-get-openapi.md
+- name: Capital One DevExchange - Create a bill
+  x-api-slug: accountsidbills-post
+  description: Creates a bill for the specific account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-post-openapi.md
 - name: Capital One DevExchange - Get bill by id
   x-api-slug: billsbillid-get
   description: Returns the bill with the specific id
@@ -86,6 +116,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-get-openapi.md
+- name: Capital One DevExchange - Update a specific existing bill
+  x-api-slug: billsbillid-put
+  description: Updates the specific bill
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-put-openapi.md
 - name: Capital One DevExchange - Delete a specific existing bill
   x-api-slug: billsbillid-delete
   description: Deletes the specific bill
@@ -110,6 +150,74 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/customersidbills-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/customersidbills-get-openapi.md
+- name: Capital One DevExchange - Get bills by customer id
+  x-api-slug: customersidbills-get
+  description: Returns the bills associated with the specific customer
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/customersidbills-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/customersidbills-get-openapi.md
+- name: Capital One DevExchange - Delete a specific existing bill
+  x-api-slug: billsbillid-delete
+  description: Deletes the specific bill
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-delete-openapi.md
+- name: Capital One DevExchange - Update a specific existing bill
+  x-api-slug: billsbillid-put
+  description: Updates the specific bill
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-put-openapi.md
+- name: Capital One DevExchange - Get bill by id
+  x-api-slug: billsbillid-get
+  description: Returns the bill with the specific id
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/billsbillid-get-openapi.md
+- name: Capital One DevExchange - Create a bill
+  x-api-slug: accountsidbills-post
+  description: Creates a bill for the specific account
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-post-openapi.md
+- name: Capital One DevExchange - Get all bills for a specific account
+  x-api-slug: accountsidbills-get
+  description: Returns the bills that are tied to the specific account.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
+  humanURL: http://capitalone.com
+  baseURL: https://api.reimaginebanking.com//
+  tags: US Bank, API Provider, Profiles, Service API, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/capital-one-devexchange/accountsidbills-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://callfire.api.gallery.streamdata.io

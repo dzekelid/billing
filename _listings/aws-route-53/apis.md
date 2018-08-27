@@ -25,11 +25,50 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Billing
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/aws-route-53/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS Route 53 API - List Tags For Resources
+  x-api-slug: 20130401tagsresourcetype-post
+  description: Lists tags for up to 10 health checks or hosted zones.For information
+    about using tags for cost allocation, see Using Cost Allocation Tags in the AWS
+    Billing and Cost Management User Guide.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
+  humanURL: https://aws.amazon.com/route53/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, API Service Provider, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/aws-route-53/20130401tagsresourcetype-post-openapi.md
+- name: AWS Route 53 API - Change Tags For Resource
+  x-api-slug: 20130401tagsresourcetyperesourceid-post
+  description: Adds, edits, or deletes tags for a health check or a hosted zone.For
+    information about using tags for cost allocation, see Using Cost Allocation Tags
+    in the AWS Billing and Cost Management User Guide.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
+  humanURL: https://aws.amazon.com/route53/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, API Service Provider, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/aws-route-53/20130401tagsresourcetyperesourceid-post-openapi.md
+- name: AWS Route 53 API - List Tags For Resource
+  x-api-slug: 20130401tagsresourcetyperesourceid-get
+  description: Lists tags for one health check or hosted zone. For information about
+    using tags for cost allocation, see Using Cost Allocation Tags in the AWS Billing
+    and Cost Management User Guide.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Networking_AmazonRoute53.png
+  humanURL: https://aws.amazon.com/route53/
+  baseURL: :///
+  tags: Amazon Web Services, DNS, API Service Provider, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/billing/master/_listings/aws-route-53/20130401tagsresourcetyperesourceid-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.rekognition.api.gallery.streamdata.io
